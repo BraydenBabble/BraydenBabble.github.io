@@ -1,6 +1,3 @@
-alert("BraydenBabble needs access to your camera and microphone to work properly. When prompted, select Allow.");
-
-//Below this comment is ALL from StackOverflow.
 var front = false;
 var video = document.querySelector('video');
 var constraints = { video: { facingMode: (front? "user" : "environment"), width: 640, height: 480  } };
